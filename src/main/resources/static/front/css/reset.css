@@ -1,0 +1,62 @@
+@charset "utf-8";
+a:active{star:expression(this.onFocus=this.blur());}
+a:focus,button:focus{outline:none; -moz-outline:none;}
+:focus{outline:none;}
+/*Reset Css*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td,img,area,param{margin:0; padding:0;}
+html,body{margin:0; padding:0; height: 100%;}
+select{*behavior: url("select.htc");}/*IE6,IE7select*/
+ol,ul{padding-left:0; list-style-type:none; list-style:none;}
+img{border:none; display:inline-block; vertical-align:middle; *display:inline; *zoom:1;}
+th{font-style:normal;font-weight:normal;}
+h1,h2,h3,h4,h5,h6{font-size:100%; font-weight:normal;}
+input{display:inline-block; vertical-align:middle; *display:inline; *zoom:1;}
+fieldset{border:none;}
+legend{display:none;}
+/*Clear Css*/
+.clear{clear:both; font-size:0px; height:0px; line-height:0;}
+.clearfix:after{content:'\20';display:block;clear:both;visibility:hidden;line-height:0;height:0;}
+.clearfix{display:block;zoom:1;}
+html[xmlns] .clearfix{display:block;}
+* html .clearfix{height:1%;}
+/*Common Css*/
+body{ line-height:1.6666;}
+.fl{float:left; _display:inline;}
+.fr{float:right; _display:inline;}
+/* 页面选中颜色 */
+/*::-moz-selection {background: #222;color: #fff;}
+::-webket-selection {background: #222;color: #fff;}
+::-o-selection {background: #222;color: #fff;}
+::selection {background: #222;color: #fff;}
+*:focus {outline: none;}*/
+/* CSS3滚动条 */
+::selection {background: #222; color: white ; text-shadow: none ;}
+::-webkit-scrollbar-track-piece{width:10px;background-color:#eee;border-radius:50px}
+::-webkit-scrollbar{width:8px;height:6px ; }
+::-webkit-scrollbar-thumb{height:50px;background:#999;  border-radius:50px ; cursor:pointer;}
+::-webkit-scrollbar-thumb:hover{background:#999; cursor:pointer}
+
+
+body, button, input, select, textarea {font-family:\5FAE\8F6F\96C5\9ED1,"Museo300", "Open Sans", "Hiragino Sans GB", STXihei, "Microsoft YaHei", sans-serif!important;font-size: 12px;line-height:1.6666666666666667; }
+
+
+input[type=button], input[type=submit], input[type=file], button { cursor: pointer; -webkit-appearance: none; }
+input,select,button,textarea{-webkit-appearance:none !important; /*去除input默认样式*/ border-radius:0px;}
+select,input[type="datetime-local"]{ background:url(../images/select_jt.png) no-repeat right center #fff !important;}
+select::-ms-expand { display: none; } 
+
+body{ -webkit-text-size-adjust: 100% !important;text-size-adjust: 100% !important;-moz-text-size-adjust: 100% !important;}
+
+select{appearance:none !important;
+-moz-appearance:none !important;
+-webkit-appearance:none !important;}
+
+::-webkit-input-placeholder{color:#999999;}
+:-moz-placeholder {color:#999999;}
+::-moz-placeholder {color:#999999;}
+:-ms-input-placeholder {color:#999999;}
+
+.ntb{display: table; table-layout: fixed; width: 100%; height: 100%; text-align: center;}
+.ntd{display: table-cell; vertical-align: middle;}
+
+.img_cut{background:no-repeat center center; background-size:cover; overflow:hidden; display:block; width:100%; height:auto;}

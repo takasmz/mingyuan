@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="mingyuan:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>mingyuan</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="mingyuan-home-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="mingyuan:war exploded" />
+    </root>
+  </artifact>
+</component>
